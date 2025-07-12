@@ -7,7 +7,12 @@ Greedy algorithms are a class of algorithms that build up a solution by choosing
 
 - **Greedy Choice Property**: A global optimum can be achieved by choosing local optimums.
 - **Optimal Substructure**: The optimal solution to the problem contains optimal solutions to its subproblems.
+
+  ## Types
 - **Pure Greedy**: they always make the greedy choice and that alone gives the optimal solution.
+- **Orthogonal Greedy**:Iteratively selects best feature/function with highest correlation to residual.
+- **Relaxed Greedy**:choices are made with some flexibility - may allow corrections or limited backtracking if needed.
+  
 
 ## When to Use?
 
@@ -32,6 +37,8 @@ Dynamic Programming is a powerful technique used to solve **optimization** probl
 
 - **Overlapping Subproblems**: Same subproblems are solved multiple times.
 - **Optimal Substructure**: The optimal solution to a problem contains the optimal solutions of its subproblems.
+
+##  Types  
 - **Memoization**: Top-down approach (recursive + cache).
 - **Tabulation**: Bottom-up approach (iterative + table).
 
