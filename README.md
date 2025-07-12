@@ -7,6 +7,7 @@ Greedy algorithms are a class of algorithms that build up a solution by choosing
 
 - **Greedy Choice Property**: A global optimum can be achieved by choosing local optimums.
 - **Optimal Substructure**: The optimal solution to the problem contains optimal solutions to its subproblems.
+- **Pure Greedy**: they always make the greedy choice and that alone gives the optimal solution.
 
 ## When to Use?
 
